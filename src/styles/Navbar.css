@@ -1,0 +1,79 @@
+
+.navbar {
+    padding: 10px;
+    width: 99%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between; /* Space out the logo and the links */
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(73, 204, 204);
+    z-index: 1000; /* Make sure navbar is on top */
+  }
+  
+  .heading {
+    font-family: sans-serif;
+    color: rgb(85, 35, 221);
+  }
+  
+  .heading span {
+    color: darkcyan;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2%;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: transform .2s; 
+  }
+  .nav-links a:hover{
+    transform: scale(1.2);
+    color: blue;
+    
+  }
+  
+  /* Hamburger Icon Styling */
+  .hamburger-icon {
+    display: none; /* Hidden by default on larger screens */
+    cursor: pointer;
+  }
+  
+  .hamburger-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Show the hamburger icon and hide the nav links on small screens */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none; /* Hide the links on small screens by default */
+      flex-direction: column; /* Stack links vertically */
+      align-items: center;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.9); /* Optional: background color for dropdown */
+      position: absolute;
+      top: 60px; /* Position below the navbar */
+      left: 0;
+      padding: 10px 0;
+      z-index: 999; /* Make sure it's on top of other content */
+    }
+  
+    .nav-links.active {
+      display: flex; /* Show the links when the menu is active */
+    }
+  
+    .hamburger-icon {
+      display: block;
+       /* Show the hamburger icon on small screens */
+    }
+  }
+  
