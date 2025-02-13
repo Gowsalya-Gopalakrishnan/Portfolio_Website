@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/About.css'
-import pic from '../assets/Professional Image.jpg'
+import pic from '../assets/ProfessionalImage.jpg'
 const About = () => {
 
     return (
@@ -27,7 +27,7 @@ const About = () => {
         
         <div className='image'>
        
-        <img src={pic} alt=''/>
+        <img src={pic} alt='professional pic'/>
          </div>
          
       </div>
