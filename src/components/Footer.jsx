@@ -4,7 +4,7 @@ import '../styles/Footer.css'
 const Contact = () => {
     return (
       <div id="footer">
-        <h2>Thank you for Visiting 😊❤️</h2>
+        <h2 id='h2'>Thank you for Visiting 😊❤️</h2>
       </div>
     );
   };

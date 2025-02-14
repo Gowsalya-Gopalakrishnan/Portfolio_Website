@@ -9,7 +9,7 @@ import email from '../assets/emailicon.jpg'
 const Contact = () => {
     return (
       <div id="contact">
-        <h2>Contact Me</h2>
+        <h2 id='h2'>Contact Me</h2>
         <div className='contact-details'>
                        <div className='mobile'>
                        <a

@@ -14,7 +14,7 @@ import github from '../assets/githublogo.png'
 const Skills = () => {
     return (
       <div id="skills">
-        <h2>Skills</h2>
+        <h2 id='h2'>Skills</h2>
         <div className='skills-logo'>
           <img src={htmllogo} alt='html logo'/>
           <img src={csslogo} alt='css logo'/>

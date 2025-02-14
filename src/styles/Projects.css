@@ -88,11 +88,12 @@
     #projects:hover{
         background-color:light;
     }
-    #projects h2{
+    #projects #h2{
         text-align: center;
         font-size: 2.5rem;
         text-transform: uppercase;
         margin-left: -15%;
+        margin-top: 600px;
     }
     .project-details{
        display: inline;
@@ -116,6 +117,10 @@
         font-family:cursive;
         margin-top: 20%;
     }
+    .project-details .common-project-div #p {
+        margin-left: -5px;
+        border: 2px solid red;
+    }
     .common-project-div:hover{
         background-color:white;
         
@@ -130,9 +135,18 @@
         margin-left: 20%;
         /* justify-content: space-around; */
     }
+    .language #htmllogo{
+        width: 20px;
+    }
+    .language #csslogo{
+        width: 20px;
+    }
+    .language #jslogo{
+        width: 20px;
+    }
     .live-git-icons #github {
         width:13%;
-        height: 15%;
+        height: 25%;
         margin-left: 10%;
         padding: 5px;
         transition: transform .2s; 
@@ -141,6 +155,7 @@
     .live-git-icons #github:hover{
         transform: scale(1.4);
     }
+    
     .live-git-icons #live {
         width:13%;
         height: 5%;
@@ -152,7 +167,6 @@
         transform: scale(1.4);
     }
     .live-git-icons{
-        /* display: flex; */
         flex-direction: row;
         gap: 10px;
         
@@ -175,6 +189,8 @@
         font-size: 2.5rem;
         text-transform: uppercase;
         margin-left: -15%;
+        margin-top: 20%;
+
     }
     .project-details{
        display: inline;

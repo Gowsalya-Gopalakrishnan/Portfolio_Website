@@ -14,7 +14,7 @@ import live from '../assets/liveicon.png'
 const Projects = () => {
     return (
       <div id="projects">
-        <h2>Projects </h2>
+        <h2 id='h2'>Projects </h2>
 
         <div className='common-project-div'>
           <div className='project-details'>
@@ -39,15 +39,15 @@ const Projects = () => {
           </a>
           </div>
         
-           <p >
+           <p id='p'>
         "Bluefly is an online retailer that specializes in offering 
         luxury fashion and designer products at discounted prices. 
         Founded in 1998, the website is known for providing a curated 
         selection of high-end clothing, shoes, handbags, 
         accessories, and more from renowned fashion brands"
         <div className='language'>
-          <img src={htmllogo} alt='html logo'/>
-          <img src={csslogo} alt='css logo'/>
+          <img id='htmllogo'src={htmllogo} alt='html logo'/>
+          <img id='csslogo'src={csslogo} alt='css logo'/>
           <img id='jslogo'src={jslogo} alt='js logo'/>
         </div>
          
@@ -57,10 +57,6 @@ const Projects = () => {
       </div>
         </div>
         
-      
-       
-        
-       
       </div>
     );
   };

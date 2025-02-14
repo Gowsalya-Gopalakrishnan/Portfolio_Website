@@ -11,14 +11,14 @@
     text-align: center;
 }
 @media screen and (max-width:320px) {
-    #footer{
+    #footer #h2{
         width: 100%;
-        position: bottom;
+        /* position: absolute; */
         bottom: 0;
         background-color: rgb(17, 77, 74);
         color: white;
         text-align: center;
-        margin-top: 100%;
+        margin-top: 850px;
     }
 }
 @media screen and (max-width:768px) {
