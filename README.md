@@ -42,12 +42,12 @@
 
 # 💻 SCREENSHOTS:
 
-![src](./src/assets/Homepage.png)
-![src](./src/assets/Aboutme.png)
-![src](./src/assets/Skills.png)
-![src](./src/assets/Projects.png)
-![src](./src/assets/Contact.png)
-![src](./src/assets/Footer.png)
+![src](./src/assets/Homepage1.png)
+![src](./src/assets/Aboutme1.png)
+![src](./src/assets/Skills1.png)
+![src](./src/assets/Projects1.png)
+![src](./src/assets/Contact1.png)
+![src](./src/assets/Footer1.png)
 
 
 
