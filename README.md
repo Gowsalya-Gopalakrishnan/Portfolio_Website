@@ -1,16 +1,26 @@
-## Portfolio Website
+# Portfolio Website
 
 # Introduction
-    A dynamic, responsive portfolio website developed using React to showcase my technical skills, professional experience, and personal projects. This portfolio serves as a comprehensive digital presence, providing visitors with a seamless navigation experience and insight into my expertise. It features interactive sections designed to highlight key aspects of my career, while demonstrating my proficiency in front-end development, UI design, and modern web technologies.
+   ###  
+   A dynamic, responsive portfolio website developed using React to showcase 
+   my technical skills, professional experience, and personal projects. This portfolio serves as a comprehensive digital presence, providing visitors with a seamless navigation experience and insight into my expertise. It features interactive sections designed to highlight key aspects of my career, while demonstrating my proficiency in front-end development, UI design, and modern web technologies.
 
 # 💻 Tech Stack:
 
 ![src](./src/assets/react.svg)
+![src](./src/assets/htmllogo.webp) 
+![src](./src/assets/csslogo.webp)
+![src](./src/assets/jslogo.png)
+![src](./src/assets/githublogo.png)
+![src](./src/assets/reactroutergithub.svg)
+![src](./src/assets/npmgithub.svg)
+![src](./src/assets/vscodegithub.svg)
 
-![src](./assets/html,css,js%20img.png)
+
 
 
 # 💻 DEPLOYED LINK:
+    https://gowsalya-gopalakrishnan.github.io/Portfolio_Website/#/
 
 # DIRECTORY STRUCTURE
 
@@ -32,6 +42,11 @@
 # 💻 SCREENSHOTS:
 
 ![src](./src/assets/Homepage.png)
+![src](./src/assets/Aboutme.png)
+![src](./src/assets/Skills.png)
+![src](./src/assets/Projects.png)
+![src](./src/assets/Contact.png)
+![src](./src/assets/Footer.png)
 
 
 
