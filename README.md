@@ -8,9 +8,9 @@
 # 💻 Tech Stack:
 
 ![src](./src/assets/react.svg)
-![src](./src/assets/htmllogo.webp) 
-![src](./src/assets/csslogo.webp)
-![src](./src/assets/jslogo.png)
+![src](./src/assets/htmlgithub.svg) 
+![src](./src/assets/cssgithub.svg)
+![src](./src/assets/javascriptgithub.svg)
 ![src](./src/assets/githublogo.png)
 ![src](./src/assets/reactroutergithub.svg)
 ![src](./src/assets/npmgithub.svg)
