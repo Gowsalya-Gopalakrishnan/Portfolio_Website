@@ -3,7 +3,9 @@
 # Introduction
    ###  
    A dynamic, responsive portfolio website developed using React to showcase 
-   my technical skills, professional experience, and personal projects. This portfolio serves as a comprehensive digital presence, providing visitors with a seamless navigation experience and insight into my expertise. It features interactive sections designed to highlight key aspects of my career, while demonstrating my proficiency in front-end development, UI design, and modern web technologies.
+   my technical skills, professional experience, and personal projects. This portfolio serves as a comprehensive digital presence, providing visitors with a seamless navigation       
+   experience and insight into my expertise. It features interactive sections designed to highlight key aspects of my career, while demonstrating my proficiency in front-end development, 
+   UI design, and modern web technologies.
 
 # 💻 Tech Stack:
 
@@ -43,10 +45,15 @@
 # 💻 SCREENSHOTS:
 
 ![src](./src/assets/Homepage1.png)
+
 ![src](./src/assets/Aboutme1.png)
+
 ![src](./src/assets/Skills1.png)
+
 ![src](./src/assets/Projects1.png)
+
 ![src](./src/assets/Contact1.png)
+
 ![src](./src/assets/Footer1.png)
 
 
