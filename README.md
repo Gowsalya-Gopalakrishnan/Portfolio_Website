@@ -27,17 +27,18 @@
     Front Page =>  Home -> About -> Skills -> Projects -> Contact
 
 # FEATURES
-    ✧ Interactive Navigation: Smooth transitions between sections with React Router, ensuring a responsive and user-friendly experience across devices.
+###
+✧ Interactive Navigation: Smooth transitions between sections with React Router, ensuring a responsive and user-friendly experience across devices.
     
-    ✧ Home Section: An engaging, visually appealing introduction with concise information about my professional background and expertise.
+✧ Home Section: An engaging, visually appealing introduction with concise information about my professional background and expertise.
     
-    ✧ About Section: A comprehensive overview of my career journey, values, and personal development.
+✧ About Section: A comprehensive overview of my career journey, values, and personal development.
     
-    ✧ Skills Section: A well-structured list of technical competencies, accompanied by intuitive icons and progress bars that highlight my proficiency with each tool or technology.
+✧ Skills Section: A well-structured list of technical competencies, accompanied by intuitive icons and progress bars that highlight my proficiency with each tool or technology.
     
-    ✧ Projects Showcase: A dynamic display of selected projects, where each project is represented by clickable image links that open detailed project descriptions and live demos in new tabs, enabling users to directly interact with my work.
+✧ Projects Showcase: A dynamic display of selected projects, where each project is represented by clickable image links that open detailed project descriptions and live demos in new tabs, enabling users to directly interact with my work.
     
-    ✧ Resume Section: An easily accessible and downloadable version of my resume, consistently     updated to reflect my latest skills and achievements.
+✧ Resume Section: An easily accessible and downloadable version of my resume, consistently     updated to reflect my latest skills and achievements.
 
 # 💻 SCREENSHOTS:
 
