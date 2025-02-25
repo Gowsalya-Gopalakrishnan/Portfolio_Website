@@ -40,7 +40,7 @@ const Navbar = () => {
           style={{ textDecoration: "none", marginRight: "60px" ,marginTop:""}}>
           Contact
         </NavLink>
-        <NavLink to='https://drive.google.com/file/d/1wp1eaOLZW22XAkwS-aV2bU-Y1QYU1KXJ/view?usp=sharing'
+        <NavLink to='https://drive.google.com/file/d/1fesoX6EViYCv4dV_G0CHyrFVrepgvn1e/view?usp=sharing'
          className={({ isActive }) => (isActive ? 'active' : '')}
           style={{ textDecoration: "none", marginRight: "90px" }}  download="resume.pdf" 
           target="_blank" 
