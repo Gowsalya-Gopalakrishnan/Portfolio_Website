@@ -51,6 +51,7 @@ const Navbar = () => {
           style={{ textDecoration: "none", marginRight: "60px" ,marginTop:""}}>
           Contact
         </NavLink>
+<<<<<<< HEAD
         <NavLink
           to="#"
           onClick={handleDownloadAndOpen}
@@ -58,6 +59,14 @@ const Navbar = () => {
           style={{ textDecoration: "none", marginRight: "90px" }}
         >
           Resume
+=======
+        <NavLink to='https://drive.google.com/file/d/1fesoX6EViYCv4dV_G0CHyrFVrepgvn1e/view?usp=sharing'
+         className={({ isActive }) => (isActive ? 'active' : '')}
+          style={{ textDecoration: "none", marginRight: "90px" }}  download="resume.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer" >
+               Resume
+>>>>>>> 8fd4710f8afdda6fb44fd860b580b53a7918be82
         </NavLink>
       </div>
     </div>
