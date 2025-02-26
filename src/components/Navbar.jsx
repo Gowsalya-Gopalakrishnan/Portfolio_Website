@@ -11,6 +11,17 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const handleDownloadAndOpen = (event) => {
+  window.open('https://drive.google.com/file/d/1fesoX6EViYCv4dV_G0CHyrFVrepgvn1e/view?usp=sharing', '_blank');
+
+  const link = document.createElement('a');
+  link.href = 'https://drive.google.com/uc?id=1fesoX6EViYCv4dV_G0CHyrFVrepgvn1e&export=download';  
+  link.download = 'resume.pdf'; 
+  document.body.appendChild(link);
+  link.click();  
+  document.body.removeChild(link);  
+};
+
   return (
     <div className='navbar'>
       <h1 className='heading'>Port<span>folio</span></h1>
@@ -40,12 +51,13 @@ const Navbar = () => {
           style={{ textDecoration: "none", marginRight: "60px" ,marginTop:""}}>
           Contact
         </NavLink>
-        <NavLink to='https://drive.google.com/file/d/1fesoX6EViYCv4dV_G0CHyrFVrepgvn1e/view?usp=sharing'
-         className={({ isActive }) => (isActive ? 'active' : '')}
-          style={{ textDecoration: "none", marginRight: "90px" }}  download="resume.pdf" 
-          target="_blank" 
-          rel="noopener noreferrer" >
-               Resume
+        <NavLink
+          to="#"
+          onClick={handleDownloadAndOpen}
+          className={({ isActive }) => (isActive ? 'active' : '')}
+          style={{ textDecoration: "none", marginRight: "90px" }}
+        >
+          Resume
         </NavLink>
       </div>
     </div>
