@@ -27,6 +27,7 @@
 .nav-links {
   display: flex;
   gap: 2%;
+  /* margin-left: -51%; */
 }
 
 .nav-links a {

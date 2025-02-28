@@ -55,7 +55,7 @@ const Navbar = () => {
           to="#"
           onClick={handleDownloadAndOpen}
           className={({ isActive }) => (isActive ? 'active' : '')}
-          style={{ textDecoration: "none", marginRight: "75px" }}>
+          style={{ textDecoration: "none", marginRight: "70px" }}>
           Resume
         </NavLink>
       </div>

@@ -10,7 +10,7 @@ import '../styles/About.css'
 // import '../styles/Projects.css'
 // import '../styles/Contact.css'
 
-import pic from '../assets/Professional Pic.jpg'
+import pic from '../assets/new.png'
 
 //projects
 import project from '../assets/frontend page.png'
