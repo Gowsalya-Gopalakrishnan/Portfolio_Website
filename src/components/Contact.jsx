@@ -8,7 +8,7 @@ import email from '../assets/emailicon.jpg'
 
 const Contact = () => {
     return (
-      <div id="contact">
+      <div id="contact-section">
         <h2 id='h2'>Contact Me</h2>
         <div className='contact-details'>
                        <div className='mobile'>
@@ -32,7 +32,7 @@ const Contact = () => {
                       </a>
                       <h3>Sivakasi, Tamil Nadu </h3>
                        </div>
-                       <div className='email'>
+                       <div className='email-section'>
                        <a
                       href="https://mail.google.com/" 
                       // download="resume.pdf" 
@@ -40,16 +40,16 @@ const Contact = () => {
                       rel="noopener noreferrer">
                       <img  id='email'src={email} alt='email logo'/>
                       </a>
-                      <h3>gowsalyagopalakrishnan1515@gamil.com</h3>
+                      <h3>gowsalyagopalakrishnan1515@gmail.com</h3>
                        </div>
                        
-                       <div className='icons'>
+                       <div className='icons-section'>
                         <a
                       href="https://github.com/Gowsalya-Gopalakrishnan" 
                       // download="resume.pdf" 
                       target="_blank" 
                       rel="noopener noreferrer">
-                      <img  id='github'src={github} alt='github logo'/>
+                      <img  id='github-icon'src={github} alt='github logo'/>
                       </a>
                       <a
                       href="https://www.linkedin.com/in/gowsalya-gopalakrishnan-547a6a34a/" 

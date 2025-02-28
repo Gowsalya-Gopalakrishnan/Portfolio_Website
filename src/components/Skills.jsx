@@ -13,7 +13,8 @@ import redex from '../assets/redexlogo.png'
 import github from '../assets/githublogo.png'
 const Skills = () => {
     return (
-      <div id="skills">
+      <>
+      <div id="skills-section">
         <h2 id='h2'>Skills</h2>
         <div className='skills-logo'>
           <img src={htmllogo} alt='html logo'/>
@@ -29,6 +30,12 @@ const Skills = () => {
           <img src={github} alt='github logo'/>
         </div>
       </div>
+
+      
+      </>
+      
+
+      
     );
   };
 export default Skills

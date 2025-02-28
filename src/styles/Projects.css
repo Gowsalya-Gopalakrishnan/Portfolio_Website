@@ -1,14 +1,14 @@
-#projects{
+#projects-section{
     /* margin-top: 10%; */
     padding: 50px;
     /* border: 2px solid red; */
     height: 87vb;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
-#projects:hover{
+#projects-section:hover{
     background-color:light;
 }
-#projects h2{
+#projects-section h2{
     text-align: center;
     font-size: 2.5rem;
     text-transform: uppercase;
@@ -76,77 +76,62 @@
     gap: 10px;
     
 }
-@media screen and (max-width:320px){
-    #projects{
-        margin-top: 330%;
+
+@media screen and (max-width:1023px){
+    #projects-section{
+        /* margin-top: 10%; */
         padding: 50px;
         /* border: 2px solid red; */
-        height: 30vb;
-        width: 60%;
+        height: 87vb;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     }
-    #projects:hover{
+    #projects-section:hover{
         background-color:light;
     }
-    #projects #h2{
+    #projects-section h2{
         text-align: center;
         font-size: 2.5rem;
         text-transform: uppercase;
-        margin-left: -15%;
-        margin-top: 600px;
     }
     .project-details{
        display: inline;
        border: 2px solid #ddd;
        gap: 20px;
     }
+    .common-project-div:hover{
+        background-color: rgb(129, 211, 211);
+        border-radius: 20px;
+    }
     .project-details img{
-        width: 150%;
+        width: 50%;
         height: 80%;
-        margin-top: 5px;
-        margin-left: -30px;
+        margin-top: 10px;
+        /* margin-left: -1.6px; */
     }
     .project-details p{
-        width: 150%;
+        width: 50%;
         line-height: 2rem;
-        margin-left: -25%;
-        font-size:1rem;
+        margin-left: 50%;
+        font-size:1.3rem;
         text-align: justify;
         list-style: none;
         word-spacing: normal;
         font-family:cursive;
-        margin-top: 20%;
-    }
-    .project-details .common-project-div #p {
-        margin-left: -5px;
-        border: 2px solid red;
-    }
-    .common-project-div:hover{
-        background-color:white;
-        
+        margin-top: -18%;
     }
     .language{
         width:10%;
         height: 10%;
         display: flex;
         flex-direction: row;
-        gap: 10vb;
+        gap: 20vb;
         margin-top: 5%;
         margin-left: 20%;
         /* justify-content: space-around; */
     }
-    .language #htmllogo{
-        width: 20px;
-    }
-    .language #csslogo{
-        width: 20px;
-    }
-    .language #jslogo{
-        width: 20px;
-    }
     .live-git-icons #github {
-        width:13%;
-        height: 25%;
+        width:3%;
+        height: 5%;
         margin-left: 10%;
         padding: 5px;
         transition: transform .2s; 
@@ -155,94 +140,10 @@
     .live-git-icons #github:hover{
         transform: scale(1.4);
     }
-    
     .live-git-icons #live {
-        width:13%;
+        width:3%;
         height: 5%;
         margin-left: 13%;
-        padding: 5px;
-        transition: transform .2s; 
-    }
-    .live-git-icons #live:hover{
-        transform: scale(1.4);
-    }
-    .live-git-icons{
-        flex-direction: row;
-        gap: 10px;
-        
-    }   
-}
-@media screen and (max-width:768px){
-    #projects{
-        margin-top: 100%;
-        padding: 50px;
-        /* border: 2px solid red; */
-        height: 30vb;
-        width: 90%;
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    }
-    #projects:hover{
-        background-color:light;
-    }
-    #projects h2{
-        text-align: center;
-        font-size: 2.5rem;
-        text-transform: uppercase;
-        margin-left: -15%;
-        margin-top: 20%;
-
-    }
-    .project-details{
-       display: inline;
-       border: 2px solid #ddd;
-       gap: 20px;
-    }
-    .project-details img{
-        width: 150%;
-        height: 80%;
-        margin-top: 5px;
-        margin-left: -30px;
-    }
-    .project-details p{
-        width: 100%;
-        line-height: 2rem;
-        margin-left: -5%;
-        font-size:1rem;
-        text-align: justify;
-        list-style: none;
-        word-spacing: normal;
-        font-family:cursive;
-        margin-top: 7%;
-    }
-    .common-project-div:hover{
-        background-color:white;
-        
-    }
-    .language{
-        width:2%;
-        height: 10%;
-        display: flex;
-        flex-direction: row;
-        gap: 10vb;
-        margin-top: 1%;
-        margin-left: 43%;
-        /* justify-content: space-around; */
-    }
-    .live-git-icons #github {
-        width:5%;
-        height: 15%;
-        margin-left: 10%;
-        padding: 5px;
-        transition: transform .2s; 
-        border-radius: 50%;
-    }
-    .live-git-icons #github:hover{
-        transform: scale(1.4);
-    }
-    .live-git-icons #live {
-        width:5%;
-        height: 5%;
-        margin-left: 35%;
         padding: 5px;
         transition: transform .2s; 
     }
@@ -254,5 +155,86 @@
         flex-direction: row;
         gap: 10px;
         
-    }   
+    }
+}
+
+@media screen and (max-width:414px){
+    #projects-section{
+        /* margin-top: 10%; */
+        padding: 50px;
+        /* border: 2px solid red; */
+        height: 87vb;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    }
+    #projects-section:hover{
+        background-color:light;
+    }
+    #projects-section h2{
+        text-align: center;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    .project-details{
+       display: inline;
+       border: 2px solid #ddd;
+       gap: 20px;
+    }
+    .common-project-div:hover{
+        background-color: rgb(129, 211, 211);
+        border-radius: 20px;
+    }
+    .project-details img{
+        width: 50%;
+        height: 80%;
+        margin-top: 10px;
+        /* margin-left: -1.6px; */
+    }
+    .project-details p{
+        width: 50%;
+        line-height: 2rem;
+        margin-left: 50%;
+        font-size:1.3rem;
+        text-align: justify;
+        list-style: none;
+        word-spacing: normal;
+        font-family:cursive;
+        margin-top: -18%;
+    }
+    .language{
+        width:10%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        gap: 20vb;
+        margin-top: 5%;
+        margin-left: 20%;
+        /* justify-content: space-around; */
+    }
+    .live-git-icons #github {
+        width:15%;
+        height: 5%;
+        margin-left: 10%;
+        padding: 5px;
+        transition: transform .2s; 
+        border-radius: 50%;
+    }
+    .live-git-icons #github:hover{
+        transform: scale(1.4);
+    }
+    .live-git-icons #live {
+        width:3%;
+        height: 5%;
+        margin-left: 13%;
+        padding: 5px;
+        transition: transform .2s; 
+    }
+    .live-git-icons #live:hover{
+        transform: scale(1.4);
+    }
+    .live-git-icons{
+        /* display: flex; */
+        flex-direction: row;
+        gap: 10px;
+        
+    }
 }

@@ -13,7 +13,7 @@ import live from '../assets/liveicon.png'
 
 const Projects = () => {
     return (
-      <div id="projects">
+      <div id="projects-section">
         <h2 id='h2'>Projects </h2>
 
         <div className='common-project-div'>

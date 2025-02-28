@@ -1,26 +1,26 @@
 /* @media screen and (max-width:1024px) { */
-#skills{
-    /* margin-top: 10%; */
+#skills-section{
+    /* margin-top: -50%; */
     padding: 50px;
     /* border: 2px solid red; */
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    height: 70vb;
+    height: 55vb;
     /* margin-left: 5%; */
     width: 100%;
 }
-#skills h2{
+#skills-section h2{
     text-align: center;
     font-size: 2.5rem;
     text-transform: uppercase;
-    /* margin-top: 690%; */
+    margin-top: 5%;
     /* border: 2px solid red; */
 }
-.skills-logo{
+.skills-section-logo{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     gap:50px;
 }
-.skills-logo img {
+.skills-section-logo img {
     width: 120px;
     height: 120px;
     margin:-60px 10 0 -60px;
@@ -36,89 +36,45 @@
 #nodejs{
     border-radius: 60px;
 }
+
  /* #github{
     width: 200px;
     height: 2dvh;
     border: 2px solid red;
 } */
 /* } */
-@media screen and (max-width:320px) {
-    #skills{
-        /* margin-top: 150%; */
+
+
+
+@media screen and (max-width:1023px){
+    #skills-section{
+        margin-top: 150%;
         padding: 50px;
         /* border: 2px solid red; */
         box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-        height: 70vb;
+        height: 5vb;
         /* margin-left: 5%; */
-        width: 100%;
-
+        width: 95%;
     }
-    #skills #h2{
+    #skills-section .skills-section{
+        /* margin-top: -35%; */
+    }
+    #skills-section h2{
         text-align: center;
         font-size: 2.5rem;
         text-transform: uppercase;
-        margin-left: -34%;
-        margin-top: 270%;
+        margin-left: -15%;
+        margin-top: -145%;
         /* border: 2px solid red; */
     }
-    .skills-logo{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap:40px;
-        margin-left: -20%;
-    }
-    .skills-logo img {
-        width: 100px;
-        height: 100px;
-        margin:-60px 10 0 -60px;
-        -webkit-animation:spin 4s linear infinite;
-        -moz-animation:spin 4s linear infinite;
-        animation:spin 4s linear infinite;
-    }
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
-    }
-    
-    #nodejs{
-        border-radius: 60px;
-    }
-    
-}
-@media screen and (max-width:768px ) {
-    #skills{
-        /* margin-top: 1%; */
-        padding: 50px;
-        /* border: 2px solid red; */
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-        height: 70vb;
-        /* margin-left: 5%; */
-        width: 100%;
-
-    }
-    /* .isActive #skills h2{
-        text-align: center;
-        font-size: 2.5rem;
-        text-transform: uppercase;
-        margin-left: -34%;
-        margin-top: 90px;
-    } */
-    #skills h2{
-        text-align: center;
-        font-size: 2.5rem;
-        text-transform: uppercase;
-        margin-top: 700%;
-        /* border: 2px solid red; */
-    }    
-    .skills-logo{
+    .skills-section-logo{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        gap:40px;
-        margin-left: -5%;
+        gap:50px;
     }
-    .skills-logo img {
-        width: 100px;
-        height: 100px;
+    .skills-section-logo img {
+        width: 120px;
+        height: 120px;
         margin:-60px 10 0 -60px;
         -webkit-animation:spin 4s linear infinite;
         -moz-animation:spin 4s linear infinite;
@@ -132,6 +88,50 @@
     #nodejs{
         border-radius: 60px;
     }
-    
+       
 }
 
+@media screen and (max-width:414px){
+    #skills-section{
+        margin-top: 150%;
+        padding: 50px;
+        /* border: 2px solid red; */
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        height: 5vb;
+        /* margin-left: 5%; */
+        width: 95%;
+    }
+    #skills-section .skills-section{
+        /* margin-top: -35%; */
+    }
+    #skills-section h2{
+        text-align: center;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-left: -15%;
+        margin-top: -145%;
+        /* border: 2px solid red; */
+    }
+    .skills-section-logo{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:50px;
+    }
+    .skills-section-logo img {
+        width: 120px;
+        height: 120px;
+        margin:-60px 10 0 -60px;
+        -webkit-animation:spin 4s linear infinite;
+        -moz-animation:spin 4s linear infinite;
+        animation:spin 4s linear infinite;
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+    }
+    
+    #nodejs{
+        border-radius: 60px;
+    }
+       
+}
